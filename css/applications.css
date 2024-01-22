@@ -1,0 +1,99 @@
+body {
+  color: #17252a;
+  background-color: #feffff;
+  font-family: "Mulish", sans-serif;
+}
+nav {
+  background-color: #2b7a78;
+}
+.logo {
+  width: 150px;
+}
+#corporate_site {
+  color: #feffff;
+}
+#footer_div {
+  background-color: #17252a;
+  color: #def2f1;
+}
+#footer_div ul {
+  list-style-type: none;
+}
+#footer_div a {
+  text-decoration: none;
+  color: #def2f1;
+}
+#footer_div li {
+  margin-bottom: 10px;
+}
+h6 {
+  margin-bottom: 10px;
+}
+#socials {
+  display: none;
+  margin-top: 15px;
+}
+#social_div {
+  display: inline-block;
+}
+#social_div:hover #socials {
+  display: block;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.list_headers {
+  margin-bottom: 30px;
+}
+p {
+  margin-bottom: 5px;
+}
+.saj_jobs_items {
+  border: solid 2px #2b7a78;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(43, 122, 120, 0);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.saj_jobs_items:hover {
+  box-shadow: 0 0 20px rgba(43, 122, 120, 0.5);
+}
+#modal_left_div p {
+  margin-bottom: 10px;
+}
+#modal_left_div {
+  border-right: solid 1px gainsboro;
+}
+#modal_right_div li {
+  margin-bottom: 10px;
+}
+.btn_1 {
+  background-color: #2b7a78;
+  color: #feffff;
+}
+#remove_sj {
+  background-color: #17252a;
+  color: #feffff;
+  margin-left: 10px;
+}
+#remove_aj {
+  background-color: #17252a;
+  color: #feffff;
+}
+@media only screen and (max-width: 991px) {
+  #divide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  #remove_sj {
+    margin-bottom: 20px;
+  }
+  #remove_aj {
+    margin-bottom: 20px;
+  }
+}
