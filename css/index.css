@@ -139,3 +139,63 @@ h6 {
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width: 1019px) {
+  .employer_div {
+    width: 320px;
+    margin-left: 10px;
+  }
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  .btn_2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 989px) {
+  .employer_div {
+    width: 310px;
+    margin-left: 10px;
+  }
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  .btn_2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .employer_div {
+    width: 290px;
+    margin-left: 10px;
+  }
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  .btn_2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 899px) {
+  .employer_div {
+    width: 340px;
+    margin-left: 50px;
+  }
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  .btn_2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 779px) {
+  .employer_div {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .btn_1 {
+    margin-bottom: 20px;
+  }
+  .btn_2 {
+    margin-bottom: 20px;
+  }
+}

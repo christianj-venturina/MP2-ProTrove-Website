@@ -40,7 +40,7 @@ async function getData(data) {
 
         if (condition_1 || condition_2 || condition_3) {
           let job_div =
-            '<div class="col-lg-3 employer_div" data-bs-toggle="modal" data-bs-target="#work_' +
+            '<div class="col-lg-3 col-md-3 employer_div" data-bs-toggle="modal" data-bs-target="#work_' +
             jobs[i].id +
             '"><img src="img/' +
             jobs[i].image +
