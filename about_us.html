@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -15,11 +21,18 @@
       href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="css/about_us.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
-    <script src="js/home.js"></script>
-    <title>Home - Search Jobs and Apply | ProTrove</title>
+    <script src="js/aboutUs.js"></script>
+
+    <title>Who are we | ProTrove</title>
   </head>
+
   <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark col-lg-12">
@@ -40,7 +53,7 @@
         <div class="collapse navbar-collapse" id="site_navbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Job search</a>
+              <a class="nav-link" href="home.html">Job search</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="profile.html">Profile</a>
@@ -81,112 +94,53 @@
         </div>
       </div>
     </nav>
-    <!--SEARCH SECTION-->
-    <div class="container-fluid" id="search_div">
-      <form id="job_form">
-        <div class="row">
-          <div class="col-lg-2 offset-lg-2">
-            <label>Job</label>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Enter keywords"
-              id="job_keywords"
-            />
-          </div>
-          <div class="col-lg-3">
-            <br />
-            <select class="form-select" id="classification">
-              <option disabled selected value="n/a">
-                Choose classification
-              </option>
-            </select>
-          </div>
-          <div class="col-lg-2">
-            <label>Location</label>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Enter city"
-              id="job_location"
-            />
-          </div>
-          <div class="col-lg-2">
-            <br />
-            <button type="submit" class="btn" id="search_button">Search</button>
-          </div>
-        </div>
-      </form>
+
+    <header class="container-fluid mt-4">
+      <h1>Welcome to Protrove</h1>
+    </header>
+
+    <div class="container mt-3">
+      <h2>Who Are We</h2>
+      <p>
+        At Protrove, we are dedicated to delivering excellence to our clients.
+        Our mission extends beyond providing opportunities in the Philippines;
+        we aspire to create a global impact. Our platform not only connects
+        individuals with job opportunities but also helps them discover the best
+        companies worldwide.
+      </p>
+      <p>
+        We believe in fostering growth and creating a pathway for Filipinos to
+        explore opportunities not only locally but also on an international
+        scale. Our commitment to excellence ensures that we provide the best
+        platform for individuals seeking meaningful careers and companies
+        looking for top-notch talent.
+      </p>
     </div>
-    <!--DROPDOWN FILTERS-->
-    <div class="container-fluid mt-3">
-      <form id="filter_form">
-        <div class="row">
-          <div class="col-lg-2">
-            <select class="form-select" id="work-type">
-              <option selected value="n/a">All work types</option>
-              <option class="filter_option" value="Full time">Full time</option>
-              <option class="filter_option" value="Part time">Part time</option>
-              <option class="filter_option" value="Contractual">
-                Contractual
-              </option>
-            </select>
-          </div>
-          <div class="col-lg-2">
-            <select class="form-select" id="salary-bracket">
-              <option class="filter_option" value="n/a" selected>
-                All salary bracket
-              </option>
-              <option class="filter_option" value="20,000 - 30,000">
-                20,000 - 30,000
-              </option>
-              <option class="filter_option" value="30,000 - 40,000">
-                30,000 - 40,000
-              </option>
-              <option class="filter_option" value="40,000 - 50,000">
-                40,000 - 50,000
-              </option>
-              <option class="filter_option" value="50,000 - 60,000">
-                50,000 - 60,000
-              </option>
-            </select>
-          </div>
-          <div class="col-lg-2">
-            <select class="form-select" id="time-posted">
-              <option selected value="n/a">All time</option>
-              <option class="filter_option" value="less than a month ago">
-                Less than a month ago
-              </option>
-              <option class="filter_option" value="1 month ago">
-                1 month ago
-              </option>
-              <option class="filter_option" value="2 months ago">
-                2 months ago
-              </option>
-            </select>
-          </div>
-        </div>
-      </form>
-    </div>
-    <!--JOB RESULTS SECTION-->
-    <div class="container-fluid mt-3">
-      <div class="row" id="results_div">
-        <img
-          src="img/character.png"
-          alt="protrove character"
-          style="width: 300px"
-          class="ms-auto"
-        />
+
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>
+        To empower Filipinos by providing access to opportunities, fostering
+        professional growth, and creating a bridge to a global career landscape.
+      </p>
+      <div class="mb-4">
+        <h2>Our Vision</h2>
+        <p>
+          To be the leading platform that connects individuals with diverse
+          career opportunities worldwide and facilitates the growth of
+          businesses by helping them find the right talent.
+        </p>
       </div>
     </div>
-    <!--FOOTER-->
+    <!-- footer -->
     <footer>
-      <div class="container-fluid mt-5" id="footer_div">
+      <div class="container-fluid" id="footer_div">
         <div class="row pt-3">
-          <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="col-lg-3">
             <h6>Professionals</h6>
             <ul>
               <li><a id="link" href="#">Create account</a></li>
+              <li><a href="login.html">Sign in</a></li>
               <li><a href="#">Search for jobs</a></li>
               <li><a href="#">Job market insights</a></li>
               <li><a href="#">How to apply</a></li>
@@ -194,11 +148,11 @@
               <li><a href="#">Career advice</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="col-lg-3">
             <h6>Corporate</h6>
             <ul>
               <li><a id="link" href="#">Create account</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign in</a></li>
               <li><a href="#">See applicant list</a></li>
               <li><a href="#">Job market insights</a></li>
               <li><a href="#">How to post a job ad</a></li>
@@ -207,30 +161,23 @@
               <li><a href="#">Profile building tips</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="col-lg-3">
             <h6>About ProTrove</h6>
             <ul>
-              <li><a id="link" href="about_us.html">Who are we</a></li>
+              <li><a id="link" href="#">Who are we</a></li>
               <li><a href="#">Our history</a></li>
               <li><a href="#">Our clients</a></li>
               <li><a href="#">Career opportunities</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="col-lg-3">
             <h6>Contact</h6>
             <ul id="social_link">
               <li><a id="link" href="#">Client support</a></li>
               <li><a href="contact_us.html">Contact us</a></li>
-              <li>
-                <div id="social_div">
-                  <span>Social Media</span>
-                  <ul id="socials">
-                    <li><a>Facebook</a></li>
-                    <li><a>Twitter</a></li>
-                    <li><a>Instagram</a></li>
-                  </ul>
-                </div>
-              </li>
+              <li><a href="#">Social</a></li>
+
+              <li></li>
             </ul>
           </div>
         </div>
